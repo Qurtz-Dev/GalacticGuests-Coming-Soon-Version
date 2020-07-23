@@ -347,3 +347,39 @@ body {
         left: 140px;
     }
 }
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #541444;
+
+}
+
+.loader-wrapper .loader {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    animation: loader 2s infinite ease;
+}
+
+.loader-wrapper h1 {
+    font-family: kalameh-black;
+    font-size: 70px;
+    position: relative;
+    left: -5px;
+    color: #F83300;
+}
+
+.loader-wrapper h3 {
+
+    font-family: kalameh-thin;
+    font-size: 40px;
+    color: #ffcc00;
+}
