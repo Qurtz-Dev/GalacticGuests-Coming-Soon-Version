@@ -432,7 +432,6 @@ body {
         bottom: -250px;
         left: 140px;
     }
-<<<<<<< HEAD
 
     .instagram-icon {
         position: absolute;
@@ -540,7 +539,6 @@ body {
         left: 75px;
     }
 
-=======
 }
 
 .loader-wrapper {
@@ -573,9 +571,7 @@ body {
 }
 
 .loader-wrapper h3 {
-
     font-family: kalameh-thin;
     font-size: 40px;
     color: #ffcc00;
->>>>>>> 893ffc844162f07e1d66a1d9399ee2cc71fe21d4
 }
