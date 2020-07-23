@@ -309,6 +309,92 @@ body {
     left: 380px;
 }
 
+.galactic-guests-social-media {
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.instagram-box {
+    position: relative;
+}
+
+.instagram-icon {
+    width: 40px;
+    position: absolute;
+    top: -30px;
+    left: 85px;
+}
+
+.youtube-box {
+    position: relative;
+}
+
+.youtube-icon {
+    width: 40px;
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
+
+.facebook-box {
+    position: relative;
+}
+
+.facebook-icon {
+    width: 40px;
+    position: absolute;
+    top: 80px;
+    left: 85px;
+}
+
+.twitter-box {
+    position: relative;
+}
+
+.twitter-icon {
+    width: 40px;
+    position: absolute;
+    top: 135px;
+    left: 85px;
+}
+
+@media screen and (max-width : 1920px) {
+
+    .body {
+        overflow: hidden;
+    }
+
+    .wrapper {
+        height: 100vh;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .instagram-icon {
+        position: absolute;
+        top: -95px;
+    }
+
+    .youtube-icon {
+        position: absolute;
+        top: -45px;
+    }
+
+    .facebook-icon {
+        position: absolute;
+        top: 10px;
+    }
+
+    .twitter-icon {
+        position: absolute;
+        top: 70px;
+    }
+}
+
 @media screen and (max-width: 1440px) {
 
     .galactic-guests-heading {
@@ -346,4 +432,111 @@ body {
         bottom: -250px;
         left: 140px;
     }
+
+    .instagram-icon {
+        position: absolute;
+        width: 30px;
+        left: 70px;
+        top: -80px;
+    }
+
+    .youtube-icon {
+        position: absolute;
+        width: 30px;
+        top: -35px;
+        left: 70px;
+    }
+
+    .facebook-icon {
+        position: absolute;
+        width: 30px;
+        top: 10px;
+        left: 70px;
+    }
+
+    .twitter-icon {
+        position: absolute;
+        width: 30px;
+        top: 60px;
+        left: 70px;
+    }
+}
+
+@media screen and (max-width : 1280px) {
+
+    .galactic-guests-heading {
+        position: absolute;
+        top: 150px;
+    }
+
+    .galactic-guests-heading h2 {
+        font-size: 70px;
+    }
+
+    .galactic-guests-heading h1 {
+        font-size: 80px;
+    }
+
+    .galactic-guests-countdown-form {
+        position: absolute;
+        top: 480px;
+    }
+
+    .galactic-guests-jupiter {
+        position: absolute;
+        left: 100px;
+    }
+
+    .yellow-lunar-moon {
+        position: absolute;
+        top: 200px;
+    }
+
+    .gold-lunar-moon {
+        position: absolute;
+        top: 200px;
+        left: 40px;
+    }
+
+    .blue-lunar-moon {
+        position: absolute;
+        top: 570px;
+        left: 30px;
+    }
+
+    .rope {
+        width: 70px;
+        top: 450px;
+        left: 480px;
+    }
+
+    .jupiter-text-box {
+        position: absolute;
+        top: 670px;
+        left: 65px;
+    }
+
+    .instagram-icon {
+        position: absolute;
+        top: -80px;
+        left: 75px;
+    }
+
+    .youtube-icon {
+        position: absolute;
+        top: -30px;
+        left: 75px;
+    }
+
+    .facebook-icon {
+        position: absolute;
+        top: 15px;
+        left: 75px;
+    }
+
+    .twitter-icon {
+        position: absolute;
+        left: 75px;
+    }
+
 }
