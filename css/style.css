@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(../font/KalamehWeb_thin.ttf);
+    font-family: kalameh-thin;
+    font-weight: 300;
+}
+
+@font-face {
+    src: url(../font/KalamehWeb_Regular.ttf);
+    font-family: kalameh-regular;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../font/KalamehWeb_Bold.ttf);
+    font-family: kalameh-bold;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(../font/KalamehWeb_Black.ttf);
+    font-family: kalameh-black;
+    font-weight: 800;
+}
+
+.btn-primary {
+    width: 120px;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #C70039;
+}
+
+.btn-primary:hover {
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #f00d4d;
+}
+
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/Fa-Galactic-Guests-Background.svg);
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.galactic-guests-heading {
+    min-width: 100%;
+    position: absolute;
+    top: 150px;
+    right: 170px;
+}
+
+.galactic-guests-heading h2 {
+    color: #ffcc00;
+    font-size: 80px;
+    font-family: kalameh-black;
+}
+
+.galactic-guests-heading h1 {
+    color: #F83300;
+    font-size: 90px;
+    font-family: kalameh-black;
+}
+
+.galactic-guests-heading p {
+    color: #FF3B3B;
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: kalameh-thin;
+}
+
+.galactic-guests-countdown-form {
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 500px;
+    right: 180px;
+}
+
+.timer-top-row {
+    width: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.days-number {
+    width: 200px;
+    height: 60px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 20px 20px 0px 0px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 45px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.hours-number {
+    width: 200px;
+    height: 60px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 20px 20px 0px 0px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 40px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.minutes-number {
+    width: 200px;
+    height: 60px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 20px 20px 0px 0px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 40px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.seconds-number {
+    width: 200px;
+    height: 60px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 20px 20px 0px 0px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 35px;
+    margin-right: 20px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.timer-bottom-row {
+    width: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.days-word {
+    width: 200px;
+    height: 55px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 0px 0px 20px 20px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 45px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.hours-word {
+    width: 200px;
+    height: 55px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 0px 0px 20px 20px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.minutes-word {
+    width: 200px;
+    height: 55px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 0px 0px 20px 20px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.seconds-word {
+    width: 200px;
+    height: 55px;
+    background-color: #541444;
+    border: 0;
+    border-radius: 0px 0px 20px 20px;
+    color: #FF3B3B;
+    padding-top: 15px;
+    padding-right: 35px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: kalameh-bold;
+}
+
+.notify-box {
+    position: absolute;
+    top: 200px;
+    right: 20px;
+    width: 480px;
+    height: 60px;
+}
+
+.email-notifier {
+    width: 480px;
+    height: 60px;
+    font-size: 20px;
+    font-family: kalameh-regular;
+}
+
+.galactic-guests-jupiter {
+    width: 100%;
+    position: relative;
+}
+
+.jupiter-box {
+    width: 975px;
+    height: 381px;
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}
+
+.jupiter-img {
+    width: 550px;
+}
+
+.yellow-moon-box {
+    position: relative;
+}
+
+.yellow-lunar-moon {
+    width: 70px;
+    position: absolute;
+    top: 280px;
+    right: 20px;
+}
+
+.blue-moon-box {
+    position: relative;
+}
+
+.blue-lunar-moon {
+    width: 70px;
+    position: absolute;
+    bottom: -640px;
+    left: 330px;
+}
+
+.gold-moon-box {
+    position: relative;
+}
+
+.gold-lunar-moon {
+    width: 40px;
+    position: absolute;
+    bottom: -250px;
+    left: 280px;
+}
+
+.rope-box {
+    position: relative;
+}
+
+.rope {
+    width: 60px;
+    position: absolute;
+    top: 500px;
+    right: 90px;
+}
+
+.jupiter-text-box {
+    position: absolute;
+    padding-right: 30px;
+    width: 450px;
+    height: 80px;
+    background-color: #541444;
+    color: #FF3B3B;
+    font-family: kalameh-regular;
+    font-size: 25px;
+    border: 0;
+    border-radius: 20px 0px 20px 20px;
+    top: 690px;
+    left: 380px;
+}
+
+@media screen and (max-width: 1440px) {
+
+    .galactic-guests-heading {
+        position: absolute;
+        top: 150px;
+        right: 80px;
+    }
+
+    .galactic-guests-countdown-form {
+        position: absolute;
+        top: 500px;
+        right: 60px;
+    }
+
+    .galactic-guests-jupiter {
+        position: absolute;
+        left: 50px;
+    }
+
+
+    .jupiter-text-box {
+        position: absolute;
+        top: 680px;
+        left: 150px;
+    }
+
+    .blue-lunar-moon {
+        position: absolute;
+        top: 600px;
+        left: 160px;
+    }
+
+    .gold-lunar-moon {
+        position: absolute;
+        bottom: -250px;
+        left: 140px;
+    }
+}
